@@ -38,7 +38,7 @@ $(PACKAGE)_INSTALL_STAGING	= YES
 $(PACKAGE)_INSTALL_IMAGES	= YES
 $(PACKAGE)_INSTALL_TARGET	= YES
 
-$(PACKAGE)_DEPENDENCIES = openssl protobuf host-protobuf
+$(PACKAGE)_DEPENDENCIES = openssl protobuf
 
 $(eval $(cmake-package))
 
